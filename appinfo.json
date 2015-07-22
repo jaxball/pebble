@@ -1,0 +1,27 @@
+{
+  "uuid": "88c65ae1-0ac8-4fea-ad9d-8e441784445c",
+  "shortName": "Watchface",
+  "longName": "Watchface",
+  "capabilities": [ "location" ],
+  "companyName": "Jason Lin",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "location": 0,
+    "sublocality": 1
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "name": "FONT_ROBOTO_REG_40",
+        "file": "fonts/roboto-regular.ttf",
+        "compatibility":"2.7"
+      }
+    ]
+  }
+}
